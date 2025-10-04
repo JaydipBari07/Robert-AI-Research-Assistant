@@ -1,0 +1,39 @@
+# Core dependencies for RAG implementation
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-core>=0.1.0
+langchain-huggingface>=0.0.3
+langgraph>=0.0.40
+langchain-google-genai>=1.0.0
+
+# Vector database and embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+transformers>=4.35.0
+
+# Document processing
+PyMuPDF>=1.23.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+readability-lxml>=0.8.1
+
+# Scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Web framework and API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# Frontend
+streamlit>=1.28.0
+
+# Utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+typing-extensions>=4.8.0
+pydantic>=2.0.0
+
+# Optional: For better performance
+torch>=2.0.0
